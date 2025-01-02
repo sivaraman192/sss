@@ -1,0 +1,245 @@
+<!--
+inline css method
+<h1 style="color:black; background-color:red">Apple</h1>
+<h1 style="color:black; background-color:orange">Orange</h1>
+<h1 style="color:black; background-color:yellow">Mango</h1>
+-->
+
+<!--
+internal css method
+
+<style>
+      h1{
+        color:red
+      }
+      p{
+        color:blue
+      }
+</style>
+<h1>heading</h1>
+<p>paragraph</p>
+-->
+
+
+<!--
+<style>
+    div{
+        background-color: red;
+        height: 100px;
+        width: 300px;
+         
+    }
+</style>
+<div>
+     <h1 style="color:white">Error makes clever</h1>
+     <p style="color: blue;">jayankonda,</p>
+</div>
+-->
+
+<!--
+external css method
+
+<link rel="stylesheet" href="style.css">
+<h1>heading</h1>
+-->
+
+<!--
+element selector
+
+<link rel="stylesheet" href="style.css">
+<h1>heading</h1>
+<h1>how are you</h1>
+<p>bye</p>
+-->
+
+<!--
+class selector
+
+<link rel="stylesheet" href="style.css">
+<h1 class="one">heading</h1>
+<h1 class="two">how are you</h1>           class use .one |id use #one
+
+-->
+<!--
+universal selector
+
+<link rel="stylesheet" href="style.css">
+<h1>heading</h1>
+<h1>how are you</h1>                    # use * is change all color
+<p>hello</p>
+<div>bye</div>
+-->
+
+<!--
+<style>
+      h1{
+        background-color: black;
+        color: white;
+        padding-top: 50px;
+        margin-top: 20px;
+      }
+</style>
+
+<h1>welcome</h1>
+-->
+
+<!--
+<style>
+  h1{
+    background-color: black;
+    color: white;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style:solid;
+    padding: 30px;
+    margin: 30px;
+  }
+</style>
+
+<h1>welcome</h1>
+-->
+
+<!--
+<style>
+     div{
+      background-color: red;
+      height: 100;
+      width: 100;
+     }
+     .box2{
+      margin-top: 50px;;
+     }
+</style>
+
+<div></div>  
+
+<div class="box2"></div>
+
+-->
+
+<!--
+<<style>
+  div{
+    background-color: black;
+    height: 100px;
+    width: 100;
+    padding: 20px;
+  }
+  p{
+    color: white;
+  }
+</style>
+<div>
+  <p>hi welcome</p>
+</div>>
+-->
+
+<!--
+<style>
+   div{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    border-color: red;
+    border-width: 15px;
+    border-style: solid;
+  
+   }
+</style>
+<div></div>
+-->
+
+<!--
+<style>
+ h1{
+  background-color: black;
+  color: yellow;
+  padding: 20px;
+  text-align: center;
+
+ }
+ div{
+  background-color:gray;
+  border-color: black;
+  border-width: 5px;
+  border-style:solid;
+  padding: 10px;
+ }      
+</style>
+
+<h1>Error makes clever</h1>
+<div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maiores iure ipsa voluptates impedit sint repellat quasi error neque, officia harum in expedita ipsam alias libero voluptatum nostrum tenetur perferendis. Aperiam laudantium, fuga dolores libero asperiores dolore necessitatibus blanditiis ab corrupti, doloremque, repellendus sed! Doloremque tempora alias, dolore maxime explicabo animi deleniti consequatur ipsam, aliquam nulla facilis ea sunt nobis ab praesentium voluptatem minus accusantium est? Architecto maxime excepturi earum dolores voluptatem quaerat reiciendis, illum nisi reprehenderit suscipit ad eveniet nihil obcaecati debitis aliquid fuga recusandae accusantium nesciunt eligendi assumenda! Ipsa quos minima mollitia magni odit praesentium quis, magnam debitis.</p>
+</div>
+
+-->
+
+<!--
+<style>
+  h1{
+    background-color: red;
+    display: block;           # use display block is whole proprety cover
+  }
+  p{
+    background-color: blueviolet;
+  }
+  span{
+    background-color:blue;
+  }
+</style>
+<h1>hello</h1>
+<p>welcome</p>
+<span>ammu siva</span>
+  
+-->
+
+<!--
+<style>
+  h1{
+    background-color: red;
+    display: inline;    # inline is use conten only cover 
+  }
+
+  
+</style>
+<h1>hello</h1>
+-->
+
+<!--
+<style>
+  h1{
+    background-color: red;
+    display: inline-block;   #use inline-block is set the width and hight are use 
+    width: 500px;
+    height: 500px;
+  }
+
+  
+</style>
+<h1>hello</h1>
+
+-->
+
+<style>
+  h1{
+    background-color: red;
+    display: inline;     
+  }
+  p{
+    background-color: purple;
+    display: inline;
+  }
+  h2{
+    background-color: blue;
+    display: inline;
+  }
+div{
+  background-color: aqua;
+ 
+}
+  
+</style>
+<h1>hello</h1>
+<p>ammu</p>
+<h2>siva</h2>
+<div>i love you</div>
